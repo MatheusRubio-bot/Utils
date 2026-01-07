@@ -145,14 +145,14 @@
       <AssemblyReference>NPOI</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="HTTP_Request" sap:VirtualizedContainerService.HintSize="919,1615" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="HTTP_Request" sap:VirtualizedContainerService.HintSize="613,1672" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:Comment sap:VirtualizedContainerService.HintSize="530,242" sap2010:WorkflowViewState.IdRef="Comment_1" Text="===== Start of Automation ======&#xA;&#xA;Developer Name: &#xA;&#xA;Date: 13/11/2025&#xA;&#xA;Task Name: --&#xA;&#xA;========================&#xA;&#xA;&#xA;" />
-    <TryCatch DisplayName="Try Catch - Run HTTP Request" sap:VirtualizedContainerService.HintSize="530,1350" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch - Run HTTP Request" sap:VirtualizedContainerService.HintSize="530,1407" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -160,7 +160,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Try Try Catch - Run HTTP Request" sap:VirtualizedContainerService.HintSize="492,1099" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Try Try Catch - Run HTTP Request" sap:VirtualizedContainerService.HintSize="492,1156" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="sAssetEndpoit" />
             <Variable x:TypeArguments="x:String" Name="sRequestURL" />
@@ -227,16 +227,16 @@
               </InArgument>
             </nu:Build_Internal_Service_URL.in_sServiceName>
           </nu:Build_Internal_Service_URL>
-          <Assign DisplayName="Assign - Format Request URL" sap:VirtualizedContainerService.HintSize="458,57" sap2010:WorkflowViewState.IdRef="Assign_3">
+          <Assign DisplayName="Assign - Format Request URL" sap:VirtualizedContainerService.HintSize="458,114" sap2010:WorkflowViewState.IdRef="Assign_3">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[sFormattedRequestURL]</OutArgument>
             </Assign.To>
             <Assign.Value>
-              <InArgument x:TypeArguments="x:String">[sRequestURL]</InArgument>
+              <InArgument x:TypeArguments="x:String">[String.Concat(sRequestURL, sAssetEndpoit.Replace("", ""))]</InArgument>
             </Assign.Value>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
@@ -259,9 +259,7 @@
                       <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
                     </ui:HttpClient.Cookies>
                     <ui:HttpClient.Headers>
-                      <InArgument x:TypeArguments="x:String" x:Key="Authorization">
-                        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="&quot;Bearer &quot; + in_sTokenNubank" />
-                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="Authorization">["Bearer " + in_sTokenNubank]</InArgument>
                     </ui:HttpClient.Headers>
                     <ui:HttpClient.Parameters>
                       <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
@@ -304,7 +302,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Exception Try Catch - Run HTTP Request" sap:VirtualizedContainerService.HintSize="466,281" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence DisplayName="Exception Try Catch - Run HTTP Request" sap:VirtualizedContainerService.HintSize="490,281" sap2010:WorkflowViewState.IdRef="Sequence_4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>

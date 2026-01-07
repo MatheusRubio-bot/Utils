@@ -1,0 +1,21 @@
+{
+   "NU-INVEST":{
+      "Path":"\\10.105.1.10\jdspb\TI - NuInv\PCabineAcesso.exe",
+      "Institution":"NU INVEST",
+      "name":"INV",
+      "area":"IF - Area de Negocio Principal da IF"
+   },
+   "NU-FINANCEIRA": {
+      "Path": "\\10.105.1.10\jdspb\TI - NuFin\PCabineAcesso.exe",
+      "Institution": "NuFinanceira",
+      "name": "FIN",
+     "area": "NuFinanceira - Area de Negocio Principal da IF"
+   },
+   "NU-PAGAMENTOS": {
+      "Path": "\\10.105.1.10\jdspb\TI - NuPag\PCabineAcesso.exe",
+      "Institution": "Nubank",
+      "name": "PAG",
+     "area": "Nubank - Area de Negocio Nubank"
+}
+
+}

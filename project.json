@@ -4,8 +4,9 @@
   "description": "Utils",
   "main": "NewActivity.xaml",
   "dependencies": {
-    "Nubank": "6.2.27",
-    "UiPath.System.Activities": "[25.4.2]"
+    "Nubank": "6.3.7",
+    "UiPath.System.Activities": "[25.4.2]",
+    "UiPath.UIAutomation.Activities": "25.10.8"
   },
   "webServices": [],
   "entitiesStores": [],

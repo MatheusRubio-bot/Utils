@@ -5,105 +5,21 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
-      "Path": "bot155-Cabine.Update.Password/Cabine.Get.Credentials.xaml",
+      "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "sAppInstitution&Sequence_2",
-        "jCabineJDEnvs&Sequence_1",
-        "sCategory&Sequence_2",
-        "sClass&Sequence_2",
-        "sTypeAccess&Sequence_2",
-        "sAppEnvironment&Sequence_2",
-        "sAppUsername&Sequence_2",
-        "sAppPassword&Sequence_2",
-        "sCabineJDEnvs&Sequence_2"
-      ],
-      "ArgumentsSectionElementsOrder": [
-        "in_sEnvironment",
-        "sAppPath"
-      ],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "API/test.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "dtQueue&Sequence_1",
-        "in_sShard&Sequence_1",
-        "in_sCostumerID&Sequence_3",
-        "in_sQSInicio&Sequence_3",
-        "in_sQSFim&Sequence_3",
-        "sResponsePomarola&Sequence_3",
-        "in_sTaxID&Sequence_3",
-        "in_sTPPessoa&Sequence_3",
-        "jArrayResultSavings&Sequence_6",
-        "sSavingsAccountStatus&Sequence_6",
-        "sSavingsAccount&Sequence_6",
-        "sServiceURLPomarola&Sequence_6",
-        "bFoundAccount&Sequence_6",
-        "sPathPomarolaAdjusted&Sequence_6",
-        "sBase64&Sequence_6",
-        "iStatusCodePomarola&Sequence_6",
-        "sLocalPathStatement&Sequence_6",
-        "TESTE_iStatusCode&Sequence_7"
-      ],
-      "ArgumentsSectionElementsOrder": [
-        "out_sCertificatePath",
-        "out_sCertificatePW",
-        "out_sTokenNuBR",
-        "in_sPathPomarola",
-        "io_RPADBConnection",
-        "in_sServiceNamePomarola",
-        "in_sEnvironment",
-        "in_sTPPessoaFisica",
-        "in_sLocalPathTemp"
-      ],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Get.SlackMessage.TS.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "out_DTMessages&Sequence_1"
+        "iIndex&Sequence_2",
+        "bStop&Sequence_2",
+        "sLastIdPage&Sequence_2",
+        "dtTodosOficios&Sequence_1",
+        "dtOficios&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Templates/HTTP.Request.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "sFormattedRequestURL&Sequence_3",
-        "sRequestURL&Sequence_3",
-        "sAssetEndpoit&Sequence_3"
-      ],
-      "ArgumentsSectionElementsOrder": [
-        "in_sCertPW",
-        "in_sTokenNubank",
-        "in_sCertificatePath",
-        "out_iStatusCode",
-        "out_sResponseContent",
-        "in_sCountry",
-        "in_sShard",
-        "in_sEnvironment",
-        "in_iTimeout"
-      ],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Templates/Run.Query.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
   ]

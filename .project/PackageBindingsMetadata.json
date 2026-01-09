@@ -1,5 +1,49 @@
 {
   "ActivityBindings": {
+    "Nubank.Applications.ADP___US.ADP_US_Get_Profile_Data": [
+      {
+        "Type": "Connection",
+        "PublishNullValues": false,
+        "Key": {
+          "Value": "Generate_Text_Completion_using_Gemini_ResourceKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "Generate_Text_Completion_using_Gemini",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "true",
+            "ValueSource": "Constant"
+          },
+          "BindingsVersion": {
+            "Value": "2.2",
+            "ValueSource": "Constant"
+          },
+          "Connector": {
+            "Value": "uipath-google-vertex",
+            "ValueSource": "Constant"
+          },
+          "ActivityName": {
+            "Value": "Generate Text Completion using Gemini",
+            "ValueSource": "Constant"
+          },
+          "CompilerActivityId": {
+            "Value": "ConnectorActivity_2",
+            "ValueSource": "Constant"
+          },
+          "CompilerActivityDisplayName": {
+            "Value": "Generate Text Completion using Gemini",
+            "ValueSource": "Constant"
+          }
+        },
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
+      }
+    ],
     "Nubank.Utils.Create_Folder_Google_Drive": [
       {
         "Type": "Connection",

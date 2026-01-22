@@ -21,6 +21,20 @@
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "ExtractReport_DataFabrics/Extract_DataFabrics_Report.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtTodosOficios&Sequence_1",
+        "dtOficios&Sequence_2",
+        "sLastIdPage&Sequence_2",
+        "bStop&Sequence_2",
+        "iIndex&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
     }
   ]
 }

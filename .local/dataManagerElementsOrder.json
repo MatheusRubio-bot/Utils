@@ -26,6 +26,7 @@
       "Path": "ExtractReport_DataFabrics/Extract_DataFabrics_Report.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "dtFormattedTable&Sequence_2",
         "dtTodosOficios&Sequence_1",
         "dtOficios&Sequence_2",
         "sLastIdPage&Sequence_2",

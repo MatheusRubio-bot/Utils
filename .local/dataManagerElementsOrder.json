@@ -46,6 +46,86 @@
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
+    },
+    {
+      "Path": "Templates/Run.Query.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "iAffectedRows&Sequence_5",
+        "dtQrResult&Sequence_5",
+        "sQrToRun&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Templates/HTTP.Request.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sAssetEndpoit&Sequence_3",
+        "sRequestURL&Sequence_3",
+        "sFormattedRequestURL&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_iTimeout",
+        "in_sEnvironment",
+        "in_sShard",
+        "in_sCountry",
+        "out_iStatusCode",
+        "out_sResponseContent",
+        "in_sCertificatePath",
+        "in_sCertPW",
+        "in_sTokenNubank"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Create.Jira.Tickets.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "createdTicket&Sequence_18",
+        "sJiraPw&Sequence_1",
+        "sJiraUser&Sequence_1",
+        "sAuthAlpha&Sequence_1",
+        "sTicketTitle&Sequence_11",
+        "sBodyFormated&Sequence_11",
+        "sTemplateTicketBody&Sequence_1",
+        "datInitExec&Sequence_11",
+        "datEndExec&Sequence_11",
+        "dtExecInfo&Sequence_10",
+        "sSevClassified&Sequence_11",
+        "sMessageNameBot&Sequence_11",
+        "sMessageIdBot&Sequence_11",
+        "sMessageSev&Sequence_11",
+        "sMessageIdExecution&Sequence_11",
+        "dcRPAConnection&Sequence_1",
+        "dtReactedMessages&Sequence_1",
+        "sCurMessageText&Sequence_11",
+        "sCurMessageUser&Sequence_11",
+        "sCurMessageTs&Sequence_11",
+        "sCurReactionUser&Sequence_7",
+        "sCurReaction&Sequence_7",
+        "sUserJiraId&Sequence_1",
+        "sUserSlackId&Sequence_1",
+        "drDevInfo&Sequence_6",
+        "dtReviewerInfos&Sequence_4",
+        "dtMessageReactions&Sequence_3",
+        "sCurMessageTs&Sequence_3",
+        "sCurMessageUser&Sequence_3",
+        "sCurMessageText&Sequence_3",
+        "dtCrashMessages&Sequence_1",
+        "dtCollectedMessages&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_sJiraProjectKey",
+        "in_sExpextedReaction",
+        "in_sUserName",
+        "in_sSlackChannelToRead"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
     }
   ]
 }

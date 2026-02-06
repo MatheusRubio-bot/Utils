@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Create.Jira.Tickets",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_sSlackChannelToRead",
+      "DisplayName": "in_sSlackChannelToRead",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_sUserName",
+      "DisplayName": "in_sUserName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "matheus.rubio.gft",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_sExpextedReaction",
+      "DisplayName": "in_sExpextedReaction",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": ":ensinadinha:",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_sJiraProjectKey",
+      "DisplayName": "in_sJiraProjectKey",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

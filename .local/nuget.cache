@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0CpD1AAU1loFRujlXEuKbpDrcPvHQcMPFpvb1TjdKCEFY0jt/5RquBY5DtagZWv/j2ULEZ8i1GQ3z4CwPKPOOA==",
+  "dgSpecHash": "XjGps2nIsVWc1fVPBhnTHrnG7kZ4vYpzPmoujAqxeu+SbTDeBhn+NL2pJI/Ns9ecf12o5eSHZETDt9G+C5t2vg==",
   "success": true,
   "projectFilePath": "C:\\Rubio\\BOTS\\Utils\\.local\\",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\documentformat.openxml\\2.12.1\\documentformat.openxml.2.12.1.nupkg.sha512",
+    "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\dotnetprojects.wpftoolkit.input\\6.0.90\\dotnetprojects.wpftoolkit.input.6.0.90.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\dynamicexpresso.core\\2.12.0\\dynamicexpresso.core.2.12.0.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\excelnumberformat\\1.0.10\\excelnumberformat.1.0.10.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\google.apis\\1.61.0\\google.apis.1.61.0.nupkg.sha512",
@@ -300,6 +301,8 @@
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.7\\uipath.activities.runtimegovernance.1.1.7.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.amazonwebservices.activities\\2.6.1\\uipath.amazonwebservices.activities.2.6.1.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.appsignatures\\25.6.140.65296\\uipath.appsignatures.25.6.140.65296.nupkg.sha512",
+    "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.atlassian.jira.sdk\\13.0.2\\uipath.atlassian.jira.sdk.13.0.2.nupkg.sha512",
+    "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.baflayer\\1.0.2\\uipath.baflayer.1.0.2.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\uipath.codedworkflows.24.10.1.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.connectionclient\\2.0.12\\uipath.connectionclient.2.0.12.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.cryptography.activities\\1.6.1\\uipath.cryptography.activities.1.6.1.nupkg.sha512",
@@ -310,6 +313,7 @@
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.gsuite.activities\\2.8.23\\uipath.gsuite.activities.2.8.23.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\uipath.imageprocessing.23.4.0.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.integrationservice.activities\\1.16.0\\uipath.integrationservice.activities.1.16.0.nupkg.sha512",
+    "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.jira.activities\\2.4.5\\uipath.jira.activities.2.4.5.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\uipath.mail.activities.1.12.3.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.ocr.activities\\3.22.0\\uipath.ocr.activities.3.22.0.nupkg.sha512",
     "C:\\Users\\matheus.rubio.gft\\.nuget\\packages\\uipath.ocr.contracts\\2.17.1\\uipath.ocr.contracts.2.17.1.nupkg.sha512",

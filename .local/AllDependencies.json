@@ -241,6 +241,18 @@
           }
         }
       },
+      "DotNetProjects.WpfToolkit.Input/6.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DotNetProjects.Input.Toolkit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "DynamicExpresso.Core/2.12.0": {
         "type": "package",
         "dependencies": {
@@ -5324,6 +5336,34 @@
           "build/_._": {}
         }
       },
+      "UiPath.Atlassian.Jira.SDK/13.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3",
+          "RestSharp": "106.15.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Atlassian.Jira.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "UiPath.BAFLayer/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.BAFLayer.Activities.Packaging.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
       "UiPath.CodedWorkflows/24.10.1": {
         "type": "package",
         "dependencies": {
@@ -6049,6 +6089,132 @@
             "locale": "zh-CN"
           },
           "lib/net8.0/zh-TW/UiPath.IntegrationService.Activities.Runtime.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "UiPath.Jira.Activities/2.4.5": {
+        "type": "package",
+        "dependencies": {
+          "DotNetProjects.WpfToolkit.Input": "6.0.90",
+          "UiPath.Atlassian.Jira.SDK": "13.0.2",
+          "UiPath.BAFLayer": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.Jira.Activities.Design.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Jira.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Jira.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.Jira.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.Jira.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Jira.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Jira.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.Jira.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Jira.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Jira.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Jira.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Jira.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Jira.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Jira.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Jira.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Jira.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Jira.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Jira.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Jira.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Jira.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Jira.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Jira.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Jira.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Jira.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.Jira.Activities.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.Jira.resources.dll": {
             "locale": "zh-TW"
           }
         }
@@ -7670,6 +7836,18 @@
             "related": ".xml"
           }
         }
+      },
+      "DotNetProjects.WpfToolkit.Input/6.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DotNetProjects.Input.Toolkit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       },
       "DynamicExpresso.Core/2.12.0": {
         "type": "package",
@@ -12616,6 +12794,34 @@
           "build/_._": {}
         }
       },
+      "UiPath.Atlassian.Jira.SDK/13.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3",
+          "RestSharp": "106.15.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Atlassian.Jira.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "UiPath.BAFLayer/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.BAFLayer.Activities.Packaging.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
       "UiPath.CodedWorkflows/24.10.1": {
         "type": "package",
         "dependencies": {
@@ -13341,6 +13547,132 @@
             "locale": "zh-CN"
           },
           "lib/net8.0/zh-TW/UiPath.IntegrationService.Activities.Runtime.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "UiPath.Jira.Activities/2.4.5": {
+        "type": "package",
+        "dependencies": {
+          "DotNetProjects.WpfToolkit.Input": "6.0.90",
+          "UiPath.Atlassian.Jira.SDK": "13.0.2",
+          "UiPath.BAFLayer": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.Jira.Activities.Design.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Jira.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Jira.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.Jira.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.Jira.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Jira.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.Jira.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.Jira.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Jira.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.Jira.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Jira.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.Jira.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Jira.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.Jira.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Jira.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.Jira.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Jira.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.Jira.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Jira.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.Jira.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Jira.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.Jira.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Jira.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.Jira.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.Jira.Activities.Design.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.Jira.Activities.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.Jira.resources.dll": {
             "locale": "zh-TW"
           }
         }
@@ -15029,6 +15361,19 @@
         "lib/netstandard1.3/DocumentFormat.OpenXml.xml",
         "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
+      ]
+    },
+    "DotNetProjects.WpfToolkit.Input/6.0.90": {
+      "sha512": "q79yGZamU7As/m/J+VYQMtjDU5tS4wX2dl+k18Z1Jljv0y65ZJAKNN3FM6LKC3ew/6X/iUAVdF2BA105oEl1ng==",
+      "type": "package",
+      "path": "dotnetprojects.wpftoolkit.input/6.0.90",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetprojects.wpftoolkit.input.6.0.90.nupkg.sha512",
+        "dotnetprojects.wpftoolkit.input.nuspec",
+        "lib/net40/DotNetProjects.Input.Toolkit.dll",
+        "lib/netcoreapp3.0/DotNetProjects.Input.Toolkit.dll"
       ]
     },
     "DynamicExpresso.Core/2.12.0": {
@@ -26413,6 +26758,33 @@
         "uipath.appsignatures.nuspec"
       ]
     },
+    "UiPath.Atlassian.Jira.SDK/13.0.2": {
+      "sha512": "n+Nxwm7cM6EIhFt3VOOT8vcbmWvEsESKdFrNzgZPthks4qaDEEt79g3pTIBzeqODtmMPJ/PahxNgiIXC2q0rhg==",
+      "type": "package",
+      "path": "uipath.atlassian.jira.sdk/13.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Atlassian.Jira.dll",
+        "lib/net6.0-windows7.0/Atlassian.Jira.dll",
+        "lib/netstandard2.0/Atlassian.Jira.dll",
+        "uipath.atlassian.jira.sdk.13.0.2.nupkg.sha512",
+        "uipath.atlassian.jira.sdk.nuspec"
+      ]
+    },
+    "UiPath.BAFLayer/1.0.2": {
+      "sha512": "GWx4yTDDDgiGAVlgtncDBIDGgO5S89CaSU7v8j+FhQf+1F2oaaxaDG8YVg21VUNApw9860Z1LbDtb0gZocu9yA==",
+      "type": "package",
+      "path": "uipath.baflayer/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.BAFLayer.Activities.Packaging.dll",
+        "lib/net6.0-windows7.0/UiPath.BAFLayer.Activities.Packaging.dll",
+        "uipath.baflayer.1.0.2.nupkg.sha512",
+        "uipath.baflayer.nuspec"
+      ]
+    },
     "UiPath.CodedWorkflows/24.10.1": {
       "sha512": "durylwdV+2QzBD22xE4eG7xck3WO/cO3hdoL98Da9MKdptMqCq3zpdVXTATIliP9UIlEG4/z6kxH8/lFgdMhPA==",
       "type": "package",
@@ -27044,6 +27416,104 @@
         "uipath.integrationservice.activities.1.16.0.nupkg.sha512",
         "uipath.integrationservice.activities.nuspec",
         "uipath_logo.png"
+      ]
+    },
+    "UiPath.Jira.Activities/2.4.5": {
+      "sha512": "RBIRCbJ2iGhvVLan4MOqHjhP+eZJWDLCBwFJg/4Ypkkzw3dyVoCW27xHn8W6lEJN6aEYaQAo6gf7g/uWZ2e6UA==",
+      "type": "package",
+      "path": "uipath.jira.activities/2.4.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "lib/net461/UiPath.Jira.Activities.Design.dll",
+        "lib/net461/UiPath.Jira.Activities.dll",
+        "lib/net461/UiPath.Jira.dll",
+        "lib/net461/de/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/de/UiPath.Jira.resources.dll",
+        "lib/net461/de/UiPath.Robot.Api.resources.dll",
+        "lib/net461/es-MX/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.Jira.resources.dll",
+        "lib/net461/es-MX/UiPath.Robot.Api.resources.dll",
+        "lib/net461/es/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/fr/UiPath.Jira.resources.dll",
+        "lib/net461/fr/UiPath.Robot.Api.resources.dll",
+        "lib/net461/ja/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/ja/UiPath.Jira.resources.dll",
+        "lib/net461/ja/UiPath.Robot.Api.resources.dll",
+        "lib/net461/ko/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/ko/UiPath.Jira.resources.dll",
+        "lib/net461/ko/UiPath.Robot.Api.resources.dll",
+        "lib/net461/pt-BR/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.Jira.resources.dll",
+        "lib/net461/pt-BR/UiPath.Robot.Api.resources.dll",
+        "lib/net461/pt/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/pt/UiPath.Jira.resources.dll",
+        "lib/net461/pt/UiPath.Robot.Api.resources.dll",
+        "lib/net461/ru/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/ru/UiPath.Jira.resources.dll",
+        "lib/net461/ru/UiPath.Robot.Api.resources.dll",
+        "lib/net461/tr/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/tr/UiPath.Jira.resources.dll",
+        "lib/net461/tr/UiPath.Robot.Api.resources.dll",
+        "lib/net461/zh-CN/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/zh-CN/UiPath.Jira.resources.dll",
+        "lib/net461/zh-CN/UiPath.Robot.Api.resources.dll",
+        "lib/net461/zh-TW/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net461/zh-TW/UiPath.Jira.Activities.resources.dll",
+        "lib/net461/zh-TW/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/UiPath.Jira.Activities.Design.dll",
+        "lib/net6.0-windows7.0/UiPath.Jira.Activities.dll",
+        "lib/net6.0-windows7.0/UiPath.Jira.dll",
+        "lib/net6.0-windows7.0/de/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/de/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/de/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.Jira.resources.dll",
+        "lib/net6.0-windows7.0/zh-TW/UiPath.Jira.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/zh-TW/UiPath.Jira.Activities.resources.dll",
+        "lib/net6.0-windows7.0/zh-TW/UiPath.Jira.resources.dll",
+        "uipath.jira.activities.2.4.5.nupkg.sha512",
+        "uipath.jira.activities.nuspec"
       ]
     },
     "UiPath.Mail.Activities/1.12.3": {
@@ -29583,6 +30053,7 @@
     "": [],
     "net8.0-windows7.0": [
       "Nubank >= 6.3.7 <= 6.3.7",
+      "UiPath.Jira.Activities >= 2.4.5 <= 2.4.5",
       "UiPath.System.Activities >= 25.4.2 <= 25.4.2",
       "UiPath.UIAutomation.Activities >= 25.10.8 <= 25.10.8"
     ]
@@ -29605,6 +30076,11 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[6.3.7, 6.3.7]"
+          },
+          "UiPath.Jira.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.4.5, 2.4.5]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",
